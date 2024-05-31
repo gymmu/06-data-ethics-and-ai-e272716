@@ -36,6 +36,8 @@
 
 
 \tableofcontents
+\parskip=1em 
+\parindent=0em
 
 \chapter{Einleitung}
 
@@ -77,15 +79,52 @@ Maschinelles Lernen:
 Die Computer werden automisiert um zu lernen und sich zu verbessern. Es werden Algorithmen verwendet um die Beziehungen zu entdecken, die zwischen den Variablen herrschen und daraus zu lernen. Je mehr Erfahrungen das KI-System hat desto leicher kann es Probleme beheben.
 
 Deep Learning:
-Ist ein geschichtetes Netzwerk aus tiefen neuronalen Pfaden. Jedes einzelne Neuron besteht aus einer mathematischen Funktion, die mit Daten berreichert wird, umgewandelt und als Ausgabe komplexere Muster erzeugt und später  analysiert werden.
-Bei jedem neuen Verlauf wird der Computer besser und lernt neue Verbindungen der Neuronen kennen. Die Computer werden besser Sachen vorherzusagen und   
+Ist ein geschichtetes Netzwerk aus tiefen neuronalen Pfaden. Jedes einzelne Neuron besteht aus einer mathematischen Funktion, die mit Daten bereichert wird, umgewandelt und als Ausgabe komplexere Muster erzeugt und später analysiert werden.
+Bei jedem neuen Verlauf wird der Computer besser und lernt neue Verbindungen der Neuronen kennen. Die Computer werden besser Sachen vorherzusagen, was passieren wird, wenn es viele Variablen und sich ändernde Bedingungen gibt. 
+Mit der Integration von neuen Lernmethoden, durch neuronale Netzte wurde die Leistungsfähigkeit von KI-Modellen erhöhen, die in der Lage sind komplizierte Mustererkennungsaufgaben zu meistern.
+
  
 Das KI-Training ist ein dreiläufiger Prozess:
 
- 
 
-Wenn ich eine Quelle zitieren möchte, kann ich das ganze einfach am Ende des Satzes machen \citep{example}. Oder wie \citet{example} sagt, auch mitten im Text.
+\subsubsection{Training} Daten in ein Computersystem einzuspeisen. Dies ermöglicht dem System Vorhersagen zu treffen und bei jedem Zyklus die Genauigkeit zu überprüfen oder alle verfügbaren Datenpunkte zu untersuchen. Der Algorithmus kann die Daten mithilfe von maschinellem Lernen und Deep Learning analysieren und Vorhersagen besser treffen. So wird der Software beigebracht verschieden Merkmale in einem Bild zu erkennen, wie der Hautton. Mit der Zeit werden die Schätzungen genauer, bis sie einen Punkt erreichen, wo es nicht viel zu verbessern gibt.
+Um dies zu erreichen, werden grosse Datenmengen in das Modell eingespeist, die verschieden Formate haben können, je nachdem, was sie analysieren sollen.
 
+\begin{itemize}
+    \item Überwachtes Lernen-> Hier lernt der Algorithmus, eine Vorhersage einer Variabel zu iterieren aus dem Trainingsdatensatz. Bei diesen Lernmodellen ist die menschliche Arbeit erforderlich, das Computersystem zu trainieren durch die Bereitstellung erforderlichen Kennzeichnungen für die Eingabedaten.
+    \item Unüberwachtes Lernen-> Arbeiten unabhängig voneinander, um Strukturen zu identifizieren, die nicht in gelabelte Daten vorhanden sind. Dies Mustererkennungen können nützlich sein, um eine Beziehung in den Daten zu finden und das Identifizieren von Ausreisser. Diese Lernmethoden kann man schneller trainieren aber es werden immer noch menschliche Eingriffe erfordert um die Gültigkeit der Ausgabenvariablen zu prüfen.
+\end{itemize}
+
+Drei Arten von unüberwachtes Lernen:
+\begin{itemize}
+    \item Clustering: Nach konkreten Kriterien, nicht gelabelte Daten, zusammenzufassen. Sie können gruppiert werden nach Ähnlichkeiten oder Unterschiede, um Datenpunkte zu Gruppen zusammenzufassen.  
+    \item Assoziationsregel-Mining: Beziehungen zwischen Datenpunkten zu finden, zwischen unterschiedlichen Gruppen von Elementen und Kombinationen zu finden die zusammen auftreten.
+    \item Ausreisser Erkennung: Zu finden welche Datenpunkte ausserhalb der Grenze liegen, zum Beispiel Anomalien in Datensätzen die zu betrügerischem Verhalten führen.
+    \item Eine neue Untergruppe, Reinforcement Learning: Art des maschinellen Lernens, es wird versucht eine Belohnungsmetrik zu maximieren durch Belohnungen und Bestrafungen.
+\end{itemize}
+
+\subsubsection{Vailidierung} 
+Hier wird bewertet, wie die einzelnen Modelle bei Daten abschneiden ohne diese gesehen zu haben, dass helfen kann herauszufinden ob man das Training fortsetzen soll oder es verändert werden muss. Die Reinforcement Learning Modelle fahren zum Beispiel fort, bis es keine Verbesserungspotenzial gibt. Dagegen gibt es beim überwachten oder unüberwachtem lernen ein Endpunkt, der begrenzt ist. 
+
+\subsubsection{Testen} 
+Wenn die KI die Entscheidungen genau treffen kann, ist sie gut vorbereitet. Eine Herausforderung für die KI-Schulung ist die die Überanpassung, es schneidet bei den Anwendungen von Trainingsdaten besser ab als bei neuen Daten. Wenn das Modell nicht funktioniert, dann kehrt es wieder im Trainingsprozess zurück, bis die Genauigkeit erreicht ist. 
+
+Damit Test erfolgreich sein sollen, müssen diese Kriterien erfüllt werden:
+Qualität der Daten: Daten sollen genau und bedeutsam sein und desto schneller werden das Training und Vailidierungsprozessen verlaufen.  Die Daten können mit einem Tag versehen sein, jedoch sollen die Tags einem Interessenbereich zugeordnet werden. 
+Hardware und Software:
+Grosse Leistungsstärke Grafikprozessoren (Rechenleistung), die im Deep Learning erfordert wird, mit Clustern. Durch dieses Clustern kann das Deep Learning vorangetrieben werden.  Für den Einstieg in der KI ist ein Cloud-Anbieter eine grosse Hilfe um eine gute Option und nötige Vorteile bietet. Es müssen auch die Fragen der Software berücksichtigt werden, der Algorithmen und der Partner. Es ist ratsam, unkategorisiertes Lernen anzuwenden, wenn sie keine Daten zum gewünschten Ergebnis haben.
+Ressourcen:
+Die Frage, die hier gestellt wird, ist wer die KI trainieren soll, denn es gibt ein Mangel an KI-Entwicklern. 
+
+\section {KI Pläne in der Zukunft}
+\begin{itemize}
+    \item Fahrelose Transportsysteme
+    \item Automatisierte Helfer bei Diagnosen
+    \item Haushaltsroboter 
+    \item Autonomes Fahren
+\end{itemize}
+
+\nocite{*}
 \printbibliography
 
 \end{document}
